@@ -24,3 +24,6 @@ allow_upload_download           = "true"                                        
 # We will start off with password authentication, and move to SSH key once it's supported by the portal
 authentication_type             = "Password"                                                       # "Password"
 admin_shell                     = "/etc/cli.sh"                                                    # "/etc/cli.sh"
+primary                         = "true"                                                           # True if this is a primary MDM
+secondary                       = "false"                                                          # True if this is a secondary MDM
+logserver                       = "false"                                                          # True if this is an MLM
