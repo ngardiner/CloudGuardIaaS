@@ -195,6 +195,21 @@ variable "bootstrap_script" {
   #"touch /home/admin/bootstrap.txt; echo 'hello_world' > /home/admin/bootstrap.txt"
 }
 
+variable "primary" {
+  description = "Defines if this is a Primary MDM"
+  type = string
+}
+
+variable "secondary" {
+  description = "Defines if this is a Primary MDM"
+  type = string
+}
+
+variable "logserver" {
+  description = "Defines if this is an MLM"
+  type = string
+}
+
 //********************** Credentials **************************//
 variable "tenant_id" {
   description = "Tenant ID"
