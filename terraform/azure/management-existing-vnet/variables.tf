@@ -59,7 +59,7 @@ variable "template_version" {
 variable "installation_type" {
   description = "Installation type"
   type = string
-  default = "management"
+  default = "mds-primary"
 }
 
 variable "vm_size" {
